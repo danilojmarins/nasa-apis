@@ -1,6 +1,6 @@
-function Home() {
+const Home = () => {
     return (
-        <h1>NASA APIs</h1>
+        <h1></h1>
     )
 }
 
