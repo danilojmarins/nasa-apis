@@ -1,38 +1,24 @@
+import Linknode from "./Linknode";
+
 const Navlinks = () => {
     return (
-        <div className="flex justify-between">
-            <div 
-                className="
-                    font-chakra
-                    text-gray-900
-                    text-lg
-                    px-8
-                "
-            >
+        <div
+            className="
+                hidden sm:flex
+                justify-between gap-5 lg:gap-8
+            "
+        >
+            <Linknode>
                 APOD
-            </div>
+            </Linknode>
 
-            <div 
-                className="
-                    font-chakra
-                    text-gray-900
-                    text-lg
-                    px-8
-                "
-            >
+            <Linknode>
                 Mars Rover
-            </div>
+            </Linknode>
 
-            <div 
-                className="
-                    font-chakra
-                    text-gray-900
-                    text-lg
-                    px-8
-                "
-            >
+            <Linknode>
                 Mars Weather
-            </div>
+            </Linknode>
         </div>
     )
 }
